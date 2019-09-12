@@ -1,0 +1,65 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="Portfolio.css">
+     <style>
+ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:  none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+.active {
+  background-color: darkblue;
+} 
+  section {
+ display: flex;
+}
+
+aside {
+ flex: .45
+}
+
+article {
+ flex: 4
+}
+</style>
+</head>
+<body>
+  <section>
+   <aside>
+       <ul>
+  <li><a href="index.html">About</a></li>
+
+  <li><a href="projects.html">Projects</a></li>
+  
+  <li class = "active"><a href="#">Experience</a></li>
+
+  <li><a href="contact.html">Contact</a></li>
+</ul> 
+   </aside>
+   <article>
+   <h2>Experience</h2>
+<p>1. Summer Sells: finding new clients for Brooks Pest Control and filling truck routes
+<br>
+2. Landscaping: worked with private clients with various outside jobs</p>
+   </article>
+</section>
+</html>
