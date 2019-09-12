@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+   <link rel="stylesheet" href="Portfolio.css">
+    <style>
+ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:  none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+.active {
+  background-color: darkblue;
+}
+  section {
+ display: flex;
+}
+
+aside {
+ flex: .45
+}
+
+article {
+ flex: 4
+}
+</style>
+</head>
+<body>
+  <section>
+   <aside>
+       <ul>
+  <li><a href="index.html">About</a></li>
+
+  <li class = "active"><a href="#">Projects</a></li>
+  
+  <li><a href="experience.html">Experience</a></li>
+
+  <li><a href="contact.html">Contact</a></li>
+</ul> 
+   </aside>
+   <article>
+       <h2>Projects</h2>
+<p>1. Online Bakery: order items from the bakery, keeps track of order and sums the total
+<br>
+2. Simple Money Tracker with Lottary Option: create people who have a bank account, able to deposit, make withdraws, or try your luck in the lottery
+<br>
+3. Binary Search Tree: sort through data of any sort at speed of log(n)</p>
+   </article>
+</section>
+       
+</html>
